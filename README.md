@@ -61,11 +61,11 @@ Los días martes y viernes de 8:30am a 12:50pm.
 | 11b              | 05-29 vie  | trabajo en proyecto-02                               |                    |
 | 12a              | 06-02 mar  | trabajo en proyecto-02                               |                    |
 | 12b              | 06-05 vie  | entrega proyecto-02                                  |                    |
-| 13a              | 06-09 mar  | diseño de carcasas                                   |                    |
-| 13b              | 06-12 vie  | diseño de manuales técnicos                          |                    |
-| 14a              | 06-16 mar  | trabajo en proyecto-03                               |                    |
+| 13a              | 06-09 mar  | diseño de carcasas                                   | Ono, cap. 1, 2     |
+| 13b              | 06-12 vie  | diseño de manuales técnicos                          | Ono, cap. 3, 4     |
+| 14a              | 06-16 mar  | trabajo en proyecto-03                               | Ono, cap. 5, 6     |
 | 14b              | 06-19 vie  | entrega proyecto-03                                  |                    |
-| 15a              | 06-23 mar  | soldadura y montaje de circuitos                     |                    |
+| 15a              | 06-23 mar  | soldadura y montaje de circuitos                     | Ono, cap. 7, 8     |
 | 15b              | 06-26 vie  | soldadura y montaje de circuitos                     |                    |
 | 16a              | 06-30 mar  | semana exclusiva de trabajo en talleres              |                    |
 | 16b              | 07-03 vie  | semana exclusiva de trabajo en talleres              |                    |
