@@ -52,12 +52,31 @@ inspiración y referentes (con cita)
 
 | Proceso 17 | Proceso 18 | Proceso 19 | Proceso 20 |
 |---------|---------|---------|---------|
-| ![Proceso21](./imagenes/pr-21.jpeg) | ![Proceso22](./imagenes/pr-22.jpeg) | ![Proceso23](./imagenes/pr-23.jpeg) |  ![Proceso12](./imagenes/pr-12.jpeg) |
+| ![Proceso21](./imagenes/pr-21.jpeg) | ![Proceso22](./imagenes/pr-22.jpeg) | ![Proceso23](./imagenes/pr-23.jpeg) |  ![Proceso24](./imagenes/pr-24.jpeg) |
 
 | Proceso 21 | Proceso 22 | Proceso 23 | Proceso 24 |
 |---------|---------|---------|---------|
-| ![Proceso13](./imagenes/pr-13.jpeg) | ![Proceso16](./imagenes/pr-16.jpeg) | ![Proceso17](./imagenes/pr-17.jpeg) | ![Proceso08](./imagenes/pr-08.jpeg) |
+| ![Proceso21](./imagenes/placas-soldadas.jpeg) | ![Proceso22](./imagenes/parlante.jpeg) | ![Proceso17](./imagenes/pr-17.jpeg) | ![Proceso08](./imagenes/pr-08.jpeg) |
 
+| Proceso 25 | Proceso 26 | Proceso 27 | Proceso 28 |
+|---------|---------|---------|---------|
+| ![Proceso21](./imagenes/placas-soldadas.jpeg) | ![Proceso22](./imagenes/parlante.jpeg) | ![Proceso17](./imagenes/pr-17.jpeg) | ![Proceso08](./imagenes/pr-08.jpeg) |
+
+
+--------------------------
+
+
+| Video 1 | Video 2 | Video 3 |
+|:-------:|:-------:|:-------:|
+| [![Video 1](https://img.youtube.com/vi/JmE9NbwjoMs/hqdefault.jpg)](https://youtube.com/shorts/JmE9NbwjoMs) | [![Video 2](https://img.youtube.com/vi/Sk7TLUBUIL0/hqdefault.jpg)](https://youtube.com/shorts/Sk7TLUBUIL0) | [![Video 3](https://img.youtube.com/vi/-w2bnB7ahFI/hqdefault.jpg)](https://youtube.com/shorts/-w2bnB7ahFI) |
+| **Video 4** | **Video 5** | **Video 6** |
+| [![Video 4](https://img.youtube.com/vi/Z8LjF2_bu-w/hqdefault.jpg)](https://youtube.com/shorts/Z8LjF2_bu-w) | [![Video 5](https://img.youtube.com/vi/l9U1S9-KGVk/hqdefault.jpg)](https://youtube.com/shorts/l9U1S9-KGVk) | [![Video 6](https://img.youtube.com/vi/rXEYtkrxyr4/hqdefault.jpg)](https://youtube.com/shorts/rXEYtkrxyr4) |
+| **Video 7** | **Video 8** | **Video 9** |
+| [![Video 7](https://img.youtube.com/vi/mTNN9lAFyIs/hqdefault.jpg)](https://youtube.com/shorts/mTNN9lAFyIs) | [![Video 8](https://img.youtube.com/vi/chz79BSDsxw/hqdefault.jpg)](https://youtube.com/shorts/chz79BSDsxw) | [![Video 9](https://img.youtube.com/vi/vpFVOLXRS30/hqdefault.jpg)](https://youtube.com/shorts/vpFVOLXRS30) |
+| **Video 10** | **Video 11** | **Video 12** |
+| [![Video 10](https://img.youtube.com/vi/bo8u3_Ju_fE/hqdefault.jpg)](https://youtube.com/shorts/bo8u3_Ju_fE) | [![Video 11](https://img.youtube.com/vi/CvPNiDL23gA/hqdefault.jpg)](https://youtube.com/shorts/CvPNiDL23gA) | [![Video 12](https://img.youtube.com/vi/T8TXoX9cu-E/hqdefault.jpg)](https://youtube.com/shorts/T8TXoX9cu-E) |
+
+-------------------------------
 
 ## BOM (Bill of materiales)
 
@@ -103,30 +122,6 @@ inspiración y referentes (con cita)
 | Perno M3       |        | 4    | H1 H2 H3 H4 |
 | Conector       | Barrel | 2    | J2 J3       |
 | Conector       | Jack   | 8    | J6 J7 J8 J9 10 J11 J12 |
-
-<br>
-
-### Secuenciador 2 / Grupo 02
-
-| Componente     | Valor  | Cant | PCB         |
-| -------------- | ------ | ---- | ----------- |
-| C polarizado   | 100µF  |  1   | C7          |
-| C polarizado   | 10µF   | 1    | C8          |
-| Capacitor      | 100nF  | 1    | C9          |
-| Led            |        | 9    | D1 D2 D3 D4 D5 D6 D7 D8 D12 |
-| Diodo          | 1N4007 | 1    | D11         |
-| Transistor     | 2N2222 | 8    | Q1 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 |
-| Resistencia    | 10KΩ   | 1    | R2          |
-| Resistencia    | 1KΩ    | 18   | R3 R12 R15 R16 R17 R18 R19 R20 R21 R22 R23 R24 R25 R26 R27 R28 R29 R30 |
-| Resistencia    | 220Ω   | 8    | R4 R5 R6 R7 R8 R9 R10 R11 |
-| Resistencia    | 100KΩ  | 1    | R13         |
-| Switch         | SPDT   | 1    | SW          |
-| Chip           | 4015   | 1    | U2          |
-| Chip           | L7805  | 1    | U4          |
-| Base Dip       | 16 pin | 1    | U2          |
-| Perno M3       |        | 4    | H1 H2 H3 H4 |
-| Conector       | Barrel | 2    | J2 J3       |
-| Conector       | Jack   | 8    | J6 J7 J8 J9 10 J11 J12 J13 J14 |
 
 <br>
 
@@ -274,11 +269,17 @@ inspiración y referentes (con cita)
 | Conector       | Barrel | 2    | J2 J3       |
 | Conector       | Jack   | 1    | J4          |
 
+
+## BOM General
+
+
 ## composición
 
 partitura e interpretación
 
 detallar operación de la partitura, como se creó, cuales fueron los referentes (citando), cual es la simbología
+
+--------------------------
 
 ## bibliografía
 
