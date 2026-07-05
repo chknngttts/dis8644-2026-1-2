@@ -8,6 +8,7 @@
 - Angel Sabogal / [angel-udp](https://github.com/angel-udp/dis8644-2026-1)
 - Tomas Catrileo / [tomascatri](https://github.com/tomascatri/dis8644-2026-1)
 
+## Actualización avances 
 ## criterios de diseño del sistema
 
 inspiración para construir, desde donde partieron
@@ -198,30 +199,6 @@ Percusión 02 / Grupo 06: *Barry Benson*
 
 <br>
 
-### Percusión 01 / Grupo 06
-
-| Componente     | Valor  | Cant | PCB         |
-| -------------- | ------ | ---- | ----------- |
-| Capacitor      | 100nF  | 4    | C2 C3 C4 C11 |
-| Capacitor      | 10nF   | 1    | C6          |
-| C. polarizado  | 100µF  | 1    | C9          |
-| C. polarizado  | 10µf   | 2    | C10 C14     |
-| C. polarizado  | 0.22µF | 1    | C12         |
-| Diodo          | 1N4007 | 1    | D1          |
-| Resistencia    | 100KΩ  | 2    | R1 R2       |
-| Resistencia    | 1KΩ    | 1    | R4          |
-| LDR            |        | 4    | RV1 RV2 RV3 RV5 |
-| Switch         | SPDT   | 1    | SW3         |
-| Chip           | 40106  | 1    | U2          |
-| Chip           | 4069   | 1    | U3          |
-| Chip           | L7805  | 1    | U8          |
-| Base Dip       | 14 pin | 2    | U2 U3       |
-| Perno M3       |        | 4    | H1 H2 H3 H4 |
-| Conector       | Barrel | 2    | J2 J3       |
-| Conector       | Jack   | 2    | J4 J5       |
-
-<br>
-
 ### Percusión 02 / Grupo 06
 
 | Componente     | Valor  | Cant | PCB         |
@@ -283,7 +260,7 @@ inspiración y referentes (con cita)
 | ![Proceso21](./imagenes/placas-soldadas.jpeg) | ![Proceso22](./imagenes/parlante.jpeg) | ![Proceso17](./imagenes/pr-17.jpeg) | ![Proceso08](./imagenes/pr-08.jpeg) |
 
 
---------------------------
+---
 
 
 | Video 1 | Video 2 | Video 3 |
@@ -296,7 +273,7 @@ inspiración y referentes (con cita)
 | **Video 10** | **Video 11** | **Video 12** |
 | [![Video 10](https://img.youtube.com/vi/bo8u3_Ju_fE/hqdefault.jpg)](https://youtube.com/shorts/bo8u3_Ju_fE) | [![Video 11](https://img.youtube.com/vi/CvPNiDL23gA/hqdefault.jpg)](https://youtube.com/shorts/CvPNiDL23gA) | [![Video 12](https://img.youtube.com/vi/T8TXoX9cu-E/hqdefault.jpg)](https://youtube.com/shorts/T8TXoX9cu-E) |
 
-------------------------------
+---
 
 ## composición
 
@@ -304,7 +281,7 @@ partitura e interpretación
 
 detallar operación de la partitura, como se creó, cuales fueron los referentes (citando), cual es la simbología
 
---------------------------
+---
 
 ## bibliografía
 
