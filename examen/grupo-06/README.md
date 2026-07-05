@@ -17,7 +17,7 @@
 
 ## Estado de construcción
 - **Placa 01 (Barry Benson)**: funciona perfecto.
-- **Placa 02 (Ludub)**: funciona a medias, solo en cierta posición. Se sospechó de la soldadura, se reforzó y siguió igual o peor. Ahora se sospecha de los cables; se cambiarán mañana para ver si se soluciona.
+- **Placa 02 (Ludub)**: funciona a medias, solo en cierta posición. Se sospechó de la soldadura, se reforzó y siguió igual o peor. Ahora se sospecha de los cables; se cambiarán mañana para ver si se soluciona. Ahora mismo no hay fotos de la soldadura, pero lo que no funciona es que no suena, pero al moverlo o poner el dedo en ciertas partes comienza a sonar y suena perfecto.
 - **Placa 03 (Chirihue)**: no funciona. Prende la luz pero no oscila ni suena. Se intentó resolver sin éxito y se decidió no seguir insistiendo con esta placa en su formato actual. Plan: armar el circuito en protoboard para probar que funcione, y si es así, soldarlo en una placa verde para presentar.
   
 ## Explicación de flujo de señal de audio

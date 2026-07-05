@@ -140,6 +140,7 @@ ayudas eléctricas que necesitamos domingo:
 \- Queremos poder resolver la placa 1, pero si no, que opciones tenemos. Si no funciona ninguna de las placas \-chirihue y maica- se nos cae toda nuestra propuesta. A nadie le ha funcionado el chirihue y tampoco el piezo. Tenemos en protoboard el chirihue que funciona.   
 \-Que hacer si nada funciona. 
 
+
 ## Bibliografía
 
 **Inspiración para construir, desde donde partieron**

@@ -2,29 +2,69 @@
 
 ## integrantes
 
-
 - Benjamín Alonso Álvarez Pavez / [benjaminalvarez21](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/03-benjaminalvarez21>)
 - Anays Valentina Cornejo Candia / [Anaysval](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/09-Anaysval>)
 - Bruno Ferrari Meyer / [chknngttts](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/11-chknngttts>)
 - Lucas Ignacio Ortiz Aguirre / [ryukivol](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/21-ryukivol>)
 - Nicolás Elías Valdés Greve / [nicolasvaldesgreve](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/31-nicolasvaldesgreve>)
 
-
 ## criterios de diseño del sistema
-inspiración para construir, desde donde partieron
-contexto desde Chile, desde nuestra disponibilidad material
 
+### de donde partimos?
 
-Fuerte arraigo con lo modular, desde un principio creamos sistemas modulares hasta llegar a estas distintas placas cada una con diferentes chips y componentes pero oara llegar al mismo fin, un sintetizador modular capaz de interconectarse con nuevas partes de nuestras placas realizadas 
+No teniamos conocimientro previo antes de entrar al taller, fue nuestra primera vez trabajando con y soldando componentes electronicos a placas. Aparte de las clases que dieron los profesores buscamos inspiración en paginas web como foros y canales de youtube que mostraban como hacer partes de sintetizadores (ej; filtros, amplificadores, reguladores etc...).
 
-El diy vs eurorack, precios, diferencias 
-Ante la barrera del eurorack salen las placas mas diy (como las de este taller) ya que los componentes son baratos de conseguir, aqui el contexto chileno brillante por la necesidad y creatividad, 
-La existencia de iniciativas locales como talleres y la misma comunidad 
+Todo este proceso ha sido prueba y error, si no funciona, se cambia y se vuelve a intentar. Gran parte de la ayuda fue entre compañeros, nos apoyamos para arreglar problemas comunes, compartíamos datos de lugares de compra y paginas web para buscar circuitos interesantes.
+
+------------
+
+## referentes
+
+### white sample
+
+artista chileno que usa sintetizadores analogicos
+
+ha trabajado con el lollapalooza y ha tocado en eventos
+
+su musica es experimental/ambiental
+
+FALTA FOTO WHITESAMPLE
+
+-------------
+
+### anthony1
+
+dj/productor chileno
+
+ha hecho tocatas ambientales donde utiliza sintetizadores analogicos y efectos digitales
+
+forma parte de un colectivo de varios artistas electronicos chilenos (Team Mekano)
+
+![anthony1](./imagenes/anthony1.png)
+
+----------------
+
+## disponibilidad material
+
+en cuanto a la disponibilidad material en chile nos ubicamos principalmente en 2 lugares/tienda; "San Diego" y "Victronics". en San Diego se encuentran varias tiendas de electronicas que ofrecen distintos componentes, la gracia es los distintos lugares y sus especialidades.
+
+"Victronics" es una tienda online, por eso pueden ofrecer precios más bajos, además tienen accesorios como espaciadores y pernos para armar las carcasas.
+
+----------------
+
+Fuerte arraigo con lo modular, desde un principio creamos sistemas modulares hasta llegar a estas distintas placas cada una con diferentes chips y componentes pero oara llegar al mismo fin, un sintetizador modular capaz de interconectarse con nuevas partes de nuestras placas realizadas
+
+El diy vs eurorack, precios, diferencias
+Ante la barrera del eurorack salen las placas mas diy (como las de este taller) ya que los componentes son baratos de conseguir, aqui el contexto chileno brillante por la necesidad y creatividad,
+La existencia de iniciativas locales como talleres y la misma comunidad
 
 Jose vicente asuar
 
-
 nombre de sistema/instrumento construido por medio de módulos
+
+??? AL FINAL PONER ESTO
+
+----------------
 
 ## placas soldadas
 
@@ -34,7 +74,7 @@ lista de materiales con costos. Incluir tiempo de soldadura
 Nuestro sintetizador está formado de 4 modulos:
 
 > ## **maincra (Piezo/entrada)**
-> 
+>
 > *un microfono de contacto que detecta vibraciónes, manda señales a un amplificador e inversor de señales. estos convierten la corriente la cual entra a un reloj interno que lo camba a pasos para que un sequenciador pueda funcionar.*
 >
 > ## **nyan cat (Sequenciador)**
@@ -48,30 +88,107 @@ Nuestro sintetizador está formado de 4 modulos:
 > ## **parla (Amplificador/Salida)**
 >
 > *es un amplificador de señal que permite escuchar las oscilaciónes del modulo anterior con mayor volumen.*
-> 
+>
 
-----------------
-
-### placas armadas (fotos)
-
-
-- Maincra
-- Registro de desplazamiento estático (Nyan cat)
-- Comando estelar
-  
-----------------
+-------------
 
 ### procesos
 
 ![test](./imagenes/test-render-1.png)
 
+(CAMBIAR FOTO POR MAS LARGA Y MAS PROCESO ESCRITO)
+
 > *para tener un flujo de trabajo más ordenado pusimos todos los conmponentes necesarios para armar una placa de lado.*
 >
-> *soldamos los componentes por tamaño (de más pequeño a más grande) y cables para los que van montados en la carcasa. al tener todo soldado en la placa se empezó a armar la cubierta de acrílico con los separadores, pusimos los potenciómetros, entradas/salidas de audio y switch conectados con los cables.* 
+> *soldamos los componentes por tamaño (de más pequeño a más grande) y cables para los que van montados en la carcasa. al tener todo soldado en la placa se empezó a armar la cubierta de acrílico con los separadores, pusimos los potenciómetros, entradas/salidas de audio y switch conectados con los cables.*
 
 ----------------
 
-  ### BOM PCB MAINCRA
+## carcasa
+
+decisiones materiales y formales de la carcasa
+inspiración y referentes (con cita)
+
+> *escogimos trabajar con acrilico ya que eramos familiares con el material. es fácil de trabajar por su compatibilidad con el corte laser que nos permitía cortar varias carcasas, grabar y lograr un buen oficio. el material es firme, perfecto para lo que teniamos en mente, además es economico.*
+>
+> *una cualidad del acrílico que utilizamos es la transparencia. buscamos celebrar el diseño de las PCB a través de la transparencia de este, rompiendo la caja negra e invitando a la apreciación integral de cada placa y sus distintos componentes.*
+
+### referentes carcasa
+
+> para la carcasa usamos estos 3 ejemplos:
+>
+> cmf phone - Nothing
+>
+> ![cmf-phone](./imagenes/cmf-phone.png)
+>
+> microKorg crystal - Korg
+>
+> ![korg-synth](./imagenes/korg.png)
+>
+> gameboy transparente - Nintendo
+>
+> ![gameboy](./imagenes/game-boy-transparente.png)
+
+## composición
+
+### Referentes
+
+- **Yoko Ono:**
+
+> ### **"pieza de escondite"**
+>
+> *"esconderse hasta que todos se vayan a sus casas."*
+>
+> *"esconderse hasta que todos se olviden de uno."*
+>
+> *"esconderse hasta que todos todos se mueran"*
+>
+
+??? 1 MAS
+
+#### Simbología
+
+QUE ES ESTO LOL
+
+---
+
+#### Integración a la vida diaria
+
+TERMINAR DE ESCRIBIR
+
+Al hacer brainstorming de que podriamos hacer como partitura nos dimos cuenta que nuestras ideas eran actividades ????
+
+---
+
+#### Ping Pong
+
+*(ver. literal examen 1) Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, “nyan cat” (secuenciador-2) y "comando estelar" (oscilador-1). Poner un piezo en cada lado superior de la mesa al centro, y pegarlo en la mesa con cinta adhesiva. Jugar una partida con paletas y pelota de Ping Pong que se piden donde los guardias. Con el impacto de la pelota en la mesa el secuenciador avanza, haciendo que el oscilador pueda funcionar. Jugar durante 5 minutos. Al perder, se cambian los jugadores. Al finalizar los 5 minutos se devuelven las paletas y pelota a los guardias.*
+
+*(ver. literal 1) Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, RELO y “nyan cat” (secuenciador-2). Poner un piezo en cada lado superior de la mesa al centro, y pegarlo en la mesa con cinta adhesiva. Jugar una partida completa de Ping Pong de 21 puntos con las paletas y pelota que se piden con los guardias. Con el impacto de la pelota en la mesa el secuenciador avanza, haciendo que el oscilador pueda funcionar. Al terminar la partida devolver las paletas y pelota a los guardias.*
+
+**(ver. literal 2) Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, “nyan cat” (secuenciador-2) y "comando estelar" (oscilador-1). Pedir las paletas y pelotas donde los guardias. Pondremos un piezo en cada paleta de ping pong con masking tape. Situar el sintetizador bajo la mesa, asegurar que los cables no se enreden entre sí. Jugar una partida completa de Ping Pong de 21 puntos, con el impacto de la pelota en las paletas el secuenciador avanza, haciendo que el oscilador pueda funcionar. Al terminar la partida devolver las paletas y pelota a los guardias.**
+
+(ver. poética)
+
+>**Ve a República 180 y ubica el piezo en la mesa de ping pong**
+
+>**Invita a alguien a jugar**
+
+>**Jueguen durante 5 minutos o hasta que se aburran**
+
+## dificultades
+
+- organización de compra de componentes
+- tener los componentes a mano para soldar
+- soldar los componentes en la dirección correcta
+- corte laser de acrilico
+  - archivos en formato correcto
+- funcionamiento correcto de las PCB
+  - conexiónes peculiares en la PCB
+
+------------------
+
+### BOM PCB MAINCRA
 
 | Componente | Cantidad | PCB | Valor unitario | Link | ¿Hay stock en LID? |
 | --- | --- | --- | --- | --- | --- |
@@ -122,8 +239,10 @@ Nuestro sintetizador está formado de 4 modulos:
 | Condensador polarizado 100 µF | 1 | C7 | $100 | <https://www.mechatronicstore.cl/condensador-capacitorio-de-electrolitico-por-unidad-varios-valores/> | Sí |
 | Interruptor Switch | 1 | SW4 | $570 | <https://www.katode.cl/switches/1339-interruptor-switch-2-pines-on-off-corto.html?srsltid=AfmBOorJlIeUySzAORFwXSattHKE4BKH2LmhhXZS_8fZ4MW-G6kwnxqA> | No |
 
-### BOM PCB 03, GRUPO 03: COMANDO ESTELAR 
+### BOM PCB 03, GRUPO 03: COMANDO ESTELAR
+
 (hay q organizarlo aun)
+
 | Componente | Cantidad | PCB | Valor unitario | Link | ¿Hay stock en LID? |
 | --- | --- | --- | --- | --- | --- |
 | Chip CD4046 | 1 | U1 | $700 | Electrónica Real | |
@@ -142,61 +261,16 @@ Nuestro sintetizador está formado de 4 modulos:
 | Jack DC | 2 | J2, J3 | $150 | Electrónica Real | |
 | Jack de audio | 1 | J1 | $150-$300 | Victronics | |
 
-
 Soldado 6 Horas
 
- Según yo esto no va 
- 
+ Según yo esto no va
+
 | Interruptor de palanca SPDT ON-ON | 1 | SW1 | $590 | Electrónica Real | |
 | Separador o tornillo de montaje (M3*8) | 4 | 4 | $54 | Pernos Alameda | |
 | Cable Dupont | 19 | 19 | $1190 (pack 10) | MCI Electronics | |
 
-
-
-## carcasa
-
-decisiones materiales y formales de la carcasa
-inspiración y referentes (con cita)
-
-> *escogimos trabajar con acrilico ya que eramos familiares con el material. es fácil de trabajar por su compatibilidad con el corte laser que nos permitía cortar varias carcasas, grabar y lograr un buen oficio. el material es firme, perfecto para lo que teniamos en mente, además es economico.*
->
-> *una cualidad del acrilico que utilizamos es la transparencia. buscamos celebrar el diseño de las PCB a traves de la transparencia de este, rompiendo la caja negra e invitando a la apreciación integra de cada placa y sus distintos componentes.*
-
-## composición
-partitura e interpretación
-detallar operación de la partitura, como se creó, cuales fueron los referentes (citando), cual es la simbología
-
-
-- Referentes
-
-- https://commons.wikimedia.org/wiki/File:Game-Boy-Color-Purple.jpg?uselang=es#Licencia
-- https://cl.nothing.tech/products/cmf-phone-1?Colour=Orange&Capacity=8%2B128GB
-- https://www.korg.com/cl/products/synthesizers/microkorg_crystal/
-
- 
-- Simbología
-
-  
----
-
-#### Integración a la vida diaria
-
-
-
----
-
-#### Ping Pong
-
-(ver. literal examen) Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, RELO (Reloj 555 Monoestable) y “nyan cat” (secuenciador-2). Poner un piezo en cada lado superior de la mesa al centro, y pegarlo en la mesa con cinta adhesiva. Jugar una partida con paletas y pelota de Ping Pong que se piden donde los guardias. Con el impacto de la pelota en la mesa el secuenciador avanza, haciendo que el oscilador pueda funcionar. Jugar durante 5 minutos. Al perder, se cambian los jugadores. Al finalizar los 5 minutos se devuelven las paletas y pelota a los guardias. 
-
-(ver. literal 2) Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, RELO y “nyan cat” (secuenciador-2). Poner un piezo en cada lado superior de la mesa al centro, y pegarlo en la mesa con cinta adhesiva. Jugar una partida completa de Ping Pong de 21 puntos con las paletas y pelota que se piden con los guardias. Con el impacto de la pelota en la mesa el secuenciador avanza, haciendo que el oscilador pueda funcionar. Al terminar la partida devolver las paletas y pelota a los guardias.
-
-(ver. poética)
-
->**Ve a República 180 y ubica el piezo en la mesa de ping pong**
-
->**Invita a alguien a jugar**
-
->**Jueguen durante 5 minutos o hasta que se aburran**
+-----------------
 
 ## bibliografía
+
+PEGAR DEL DOC YA ESTAN CASI TODAS
