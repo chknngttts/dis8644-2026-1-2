@@ -276,3 +276,41 @@ Al hacer brainstorming de que podriamos hacer como partitura nos dimos cuenta qu
 ## bibliografía
 
 PEGAR DEL DOC YA ESTAN CASI TODAS
+
+-----------------
+
+## preguntas domingo
+
+```
+placas usadas:
+
+- placa 01: piezo, diseñada por grupo 01
+- placa 02: secuenciador, diseñada por grupo 02
+- placa 03: oscilador, diseñada por grupo 03
+
+explicación de flujo de señal de audio:
+
+ordenado a grandes rasgos gesto humano a fuentes de tiempo, a secuenciador, a osciladores, a filtros, a mezcladores, a parlante
+
+- la placa 01 es el piezo, tiene como entrada un golpecito en el piezo, y la salida es un pequeño voltaje que va conectado a la placa 02 secuenciador.
+- la placa 02 tiene como entrada la señal de control del piezo, estamos viendo como arreglaralo ya que la primera vez no funcionó. estamos soldando uno nuevo para ver si fue un error de soldadura con nuevos componentes. de las 8 entradas usamos 4, jel 4to siendo reset para comenzar el ciclo de nuevo. (soldamos el pin 2 y 14 como una forma de hechizo)
+- cada placa 03 de osciladores es una fuente sonora, tenemos 3 montados juntos en una carcasa. tuvimos un problema con la placa del medio, nunca sonaba correctamente. soldamos uno ultimo y nos dimos cuenta que usamos un chip erroneo y una cama estaba mal puesta.
+
+estado de construcción:
+- placa 01: no funciona, la entrada original del piezo no es funcional, si uno se conecta al otro audiojack se prenden LEDs. los potenciometros controlan la intensidad de la luz y bloquean al piezo.
+- placa 02: no funciona, las LEDs no se prenden junto a los steps (el grupo del secuenciador nos contó que tambíen encontraron este error en la protoboard y que no affecta realmente el funcionamiento de los steps). 
+- placa 03: funcionan algunos, los de los costados suenan correctamente, el del medio tiene más problemas. nos dimos cuenta que pusimos mal una cama/zapato y que usamos un chip distinto al resto. ahora estamos soldando los componentes nuevamente con el chip correcto.
+
+ayudas eléctricas que necesitamos domingo:
+
+- placa 01: queremos ayuda viendo las conexiónes del piezo. ver como hacerlo funcionar correctamente.
+- placa 02: vamos a preguntar a compañeros primero y si no ver temas de LEDs y confirmar buen funcionamiento
+- placa 03: ver tema placa del medio. 
+
+ayuda audio que necesitamos domingo:
+
+- ver conexión placas entrada/salida. ver como conectar todos los osciladores a un parla
+
+materiales faltantes:
+
+- chip 4046 40106 para grito (para tener a mano por si algo se quemara)
