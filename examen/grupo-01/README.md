@@ -131,6 +131,17 @@ Este módulo recibe dos inputs, energía eléctrica a través de los conectores 
 | Jack DC | 2 | J2, J3 | $150 | Electrónica Real | |
 | Jack de audio | 1 | J1 | $150-$300 | Victronics | |
 
+### Carcasas
+
+| Componente | Cantidad | Valor unitario | Link/Lugar | ¿Hay stock en LID? |
+|----------|:-----------:|:--------:|-------------:|-------------:|
+| Interruptor de palanca SPDT ON-ON | 5 | $590 | Electrónica Real | No |
+| Separador (M3*30mm) | 52 | $1490 x 4 | https://www.victronics.cl/hardware/separador-niquelado-m330mm-4u/ | No |
+| Tuerca (M3) | 20 | $1190 | Pernos alameda | No |
+| Golilla (M3) | 40 | $400 | https://www.victronics.cl/hardware/k3-d218-golilla-m3-ranurada-inox-a2-50u/ | No |
+
+### Tiempos trabajo
+
 | Proceso | Integrantes | Duración | Total equipo |
 |----------|:-----------:|:--------:|-------------:|
 | Procesos y solución de errores | 5 | 3 semanas | 240h |
@@ -140,11 +151,6 @@ Este módulo recibe dos inputs, energía eléctrica a través de los conectores 
 | Soldadura | 5 | 3 semanas | ???h |
 
 
- Según yo esto no va
-
-| Interruptor de palanca SPDT ON-ON | 1 | SW1 | $590 | Electrónica Real | |
-| Separador o tornillo de montaje (M3*8) | 4 | 4 | $54 | Pernos Alameda | |
-| Cable Dupont | 19 | 19 | $1190 (pack 10) | MCI Electronics | |
 
 ----------------
 
@@ -179,14 +185,14 @@ Nuestro sintetizador está formado de 4 módulos:
 
 ![test gif-1](./imagenes/corte-laser-1.gif) ㅤㅤㅤㅤㅤㅤㅤ ![test gif-2](./imagenes/grito-test-medio.gif)
 
-#### Para tener un flujo de trabajo más ordenado pusimos todos los componentes necesarios para armar una placa de lado. 
+### Para tener un flujo de trabajo más ordenado pusimos todos los componentes necesarios para armar una placa de lado. 
 
 > 1era dificultad
 >
 > Tuvimos problemas con la organización en la compra de componentes, listas incompletas 
 >
 
-#### Soldamos los componentes por tamaño (de más pequeño a más grande) y cables para los que van montados en la carcasa. 
+### Soldamos los componentes por tamaño (de más pequeño a más grande) y cables para los que van montados en la carcasa. 
 
 > 2da dificultad
 >
@@ -201,14 +207,14 @@ Nuestro sintetizador está formado de 4 módulos:
 > 6to corte: Por falta de material usamos los restantes de cortes anteriores
 > 
 
-#### Armamos las carcasas con los separadores 
+### Armamos las carcasas con los separadores 
 
 > 3era dificultad
 >
 > Falta de separadores para las carcasas por modificaciones en tamaño
 >
 
-#### Al tener todo soldado en la placa se empezó a armar la cubierta de acrílico con los separadores (gracias al grupo 0X por darnos sus separadores restantes), pusimos los potenciómetros, entradas/salidas de audio y switch conectados con los cables 
+### Al tener todo soldado en la placa se empezó a armar la cubierta de acrílico con los separadores *(gracias al grupo 04 por darnos sus separadores restantes)*, pusimos los potenciómetros, entradas/salidas de audio y switch conectados con los cables 
 
 > 4ta dificultad
 >
@@ -283,7 +289,22 @@ Descubrimos que nuestra partitura calzaba con el principio del Sitio especifico,
 
 ## Bibliografía
 
-PEGAR DEL DOC YA ESTAN CASI TODAS
+Amo, E. (2011, 02 10). Game Boy Color [A Game Boy Color, shown in clear atomic purple color.]. WikiPedia. <https://upload.wikimedia.org/wikipedia/commons/f/f9/Game-Boy-Color-Purple.jpg?uselang=es>
+
+Anthony1. (2022, 05 12). (ノ^_^)ノƪ(‾.‾“)┐(ノ^_^)ノƪ(‾.‾“)┐. Santiago, Chile. <https://www.instagram.com/anthony1.one/p/CdfBOJiutpF/>
+
+Kolodynski, M. (n.d.). Site-specific | IDIS. Proyecto Idis. <https://proyectoidis.org/site-specific/>
+
+KORG. (2022). microKORG Crystal. KORG. <https://www.korg.com/cl/products/synthesizers/microkorg_crystal/>
+
+Nothing. (2024). CMF Phone 1. NOTHING. <https://cl.nothing.tech/products/cmf-phone-1?Colour=Black&Capacity=8%2B128GB>
+
+Ono, Y. (1964). Pomelo: Un libro de instrucciones de Yoko Ono. <https://monoskop.org/images/8/83/Ono_Yoko_Pomelo_Un_libro_de_instrucciones_de_Yoko_Ono.pdf>
+
+WhiteSample. (2014). SpeakerSampler. SpeakerSampler. <https://cargocollective.com/whitesample/SpeakerSampler>
+
+WhiteSample, & Cargo Collective. (2012, 01 04). Live at Mutek_CL. <https://vimeo.com/34586254?fl=pl&fe=ti>
+
 
 -----------------
 
