@@ -28,7 +28,7 @@ ha trabajado con lollapalooza con estructuras interactivas y ha tocado en evento
 
 su musica es experimental/electronica
 
-![whitesample](./imagenes/whitesample.jpg) (cita)
+![whitesample](./imagenes/whitesample-2.jpg) (cita)
 
 -------------
 
@@ -179,11 +179,40 @@ Nuestro sintetizador está formado de 4 modulos:
 
 ![test gif-1](./imagenes/corte-laser-1.gif) ㅤㅤㅤㅤㅤㅤㅤ ![test gif-2](./imagenes/grito-test-medio.gif)
 
-(MAS PROCESO ESCRITO)
+#### para tener un flujo de trabajo más ordenado pusimos todos los conmponentes necesarios para armar una placa de lado.
 
-> *para tener un flujo de trabajo más ordenado pusimos todos los conmponentes necesarios para armar una placa de lado.*
+> 1era dificultad
 >
-> *soldamos los componentes por tamaño (de más pequeño a más grande) y cables para los que van montados en la carcasa. al tener todo soldado en la placa se empezó a armar la cubierta de acrílico con los separadores, pusimos los potenciómetros, entradas/salidas de audio y switch conectados con los cables.*
+> tuvimos problemas con la organización en la compra de componentes, listas incompletas
+>
+
+#### soldamos los componentes por tamaño (de más pequeño a más grande) y cables para los que van montados en la carcasa.
+
+> 2da dificultad
+>
+> también tuvimos problemas con el corte del acrílico para la carcasa
+>
+> 1er corte: falta de agujeros para componentes y tamaño equivocado
+>
+> 2do corte: formato no compatible de archivo
+>
+> 3er/4to/5to corte: parametros erroneos y líneas de corte extra
+>
+> 6to corte: por falta de material usamos los restantes de cortes anteriores
+
+#### armamos las carcasas con los separadores
+
+> 3era dificultad
+>
+> falta de separadores para las carcasas por modificaciones en tamaño
+>
+
+#### al tener todo soldado en la placa se empezó a armar la cubierta de acrílico con los separadores (gracias al grupo 0X por darnos sus separadores restantes), pusimos los potenciómetros, entradas/salidas de audio y switch conectados con los cables
+
+> 4ta dificultad
+>
+> funcionamiento correcto de las PCB, soldamos varias veces las placas, cambiamos los componentes y remplazamos los cables pero no funcionaban.
+>
 
 ----------------
 
@@ -200,15 +229,12 @@ inspiración y referentes (con cita)
 
 > para la carcasa usamos estos 3 ejemplos:
 >
-> cmf phone - Nothing
+> cmf phone - Nothing (Nothing, 2024)
 >
-> microKorg crystal - Korg
+> microKorg crystal - Korg (KORG, 2022)
 >
-> gameboy transparente - Nintendo
-
-![test](./imagenes/referencias-modulos.png)
-
-(muy grande --> cambiar a 550px ancho / añadir citas)
+> gameboy transparente - Nintendo (Amo, 2011)
+> 
 
 ## composición
 
@@ -223,7 +249,7 @@ inspiración y referentes (con cita)
 > *"esconderse hasta que todos se olviden de uno."*
 >
 > *"esconderse hasta que todos todos se mueran"*
->
+> *(Ono, 1964, 25)*
 
 ??? 1 MAS
 
@@ -256,16 +282,6 @@ Al hacer brainstorming de que podriamos hacer como partitura nos dimos cuenta qu
 >**Invita a alguien a jugar**
 
 >**Jueguen durante 5 minutos o hasta que se aburran**
-
-## dificultades
-
-- organización de compra de componentes
-- tener los componentes a mano para soldar
-- soldar los componentes en la dirección correcta
-- corte laser de acrilico
-  - archivos en formato correcto
-- funcionamiento correcto de las PCB
-  - conexiónes peculiares en la PCB
 
 ------------------
 
