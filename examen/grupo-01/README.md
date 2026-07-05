@@ -20,15 +20,15 @@ Todo este proceso ha sido prueba y error, si no funciona, se cambia y se vuelve 
 
 ## referentes
 
-### white sample
+### WhiteSample
 
-artista chileno que usa sintetizadores analogicos
+artista chileno que usa sintetizadores analógicos
 
-ha trabajado con lollapalooza con estructuras interactivas y ha tocado en eventos
+ha trabajado con lollapalooza con estructuras interactivas (WhiteSample, 2014)
 
-su musica es experimental/electronica
+su música es experimental/electrónica
 
-![whitesample](./imagenes/whitesample-2.jpg) (cita)
+![whitesample](./imagenes/whitesample-2.jpg) (WhiteSample & Cargo Collective, 2012)
 
 -------------
 
@@ -40,17 +40,21 @@ ha hecho tocatas ambientales donde utiliza sintetizadores analogicos y efectos d
 
 forma parte de un colectivo de varios artistas electronicos chilenos (Team Mekano)
 
-![anthony1](./imagenes/anthony1.png) (cita)
+![anthony1](./imagenes/anthony1.png) (Anthony1, 2022)
 
 ----------------
 
 ## disponibilidad material
 
-en cuanto a la disponibilidad material en chile nos ubicamos principalmente en 2 lugares/tienda; "San Diego" y "Victronics". en San Diego se encuentran varias tiendas de electronicas que ofrecen distintos componentes, la gracia es los distintos lugares y sus especialidades.
+en cuanto a la disponibilidad material en chile nos ubicamos principalmente en 2 lugares/tienda; *San Diego* y *Victronics*. en *San Diego* se encuentran varias tiendas de electronicas que ofrecen distintos componentes, la gracia es los distintos lugares y sus especialidades.
 
-"Victronics" es una tienda online, por eso pueden ofrecer precios más bajos, además tienen accesorios como espaciadores y pernos para armar las carcasas.
+*Victronics* es una tienda online, por eso pueden ofrecer precios más bajos, además tienen accesorios como espaciadores y pernos para armar las carcasas.
 
 ### BOM PCB MAINCRA
+
+Este módulo te permite interactuar con el sintetizador mediante vibraciones en el piezo, mediante golpes en el mismo. Estas vibraciones serás captadas por el piezo, lo cual lo tomará como señal para avanzar en el secuenciador.
+
+La idea detrás de esta propuesta nace de la posibilidad de sentir y ver las vibraciones. Aquello que parece caótico o insignificante puede contener señales que, al prestar suficiente atención, adquieren un significado propio. Siguiendo esa lógica, el piezo actúa como un medio para captar esas vibraciones y convertirlas en acciones dentro del sintetizador, permitiendo que elementos normalmente invisibles se vuelvan parte de la interacción.
 
 | Componente | Cantidad | PCB | Valor unitario | Link | ¿Hay stock en LID? |
 | --- | --- | --- | --- | --- | --- |
@@ -63,14 +67,14 @@ en cuanto a la disponibilidad material en chile nos ubicamos principalmente en 2
 | Potenciómetro B10K | 1 | RV1 | $495 | <https://altronics.cl/potenciometro-lineal-10k-b10k> | No |
 | Potenciómetro B500K | 1 | RV2 | $495 | <https://altronics.cl/potenciometro-lineal-500k-b500k?search=b500k> | Sí |
 | LED 3mm | 3 | D1, D2, D8 | $100 | <https://www.mechatronicstore.cl/led-3mm-5mm/> | Sí |
-| Resistencia 47 Ω | 1 | R12 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | No |
-| Resistencia 100 Ω | 1 | R18 |  $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
-| Resistencia 220 Ω | 1 | R14 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
-| Resistencia 1 KΩ | 6 | R1, R3, R6, R7, R8, R11 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
-| Resistencia 2,2 KΩ | 1 | R13 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | No |
-| Resistencia 10 KΩ | 2 | R4, R5 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
-| Resistencia 100 KΩ | 3 | R2, R16, R17 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
-| Resistencia 2,2 MΩ | 1 | R15 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | No |
+| Resistencia 47 Ω | 1 | R12 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | No |
+| Resistencia 100 Ω | 1 | R18 |  $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
+| Resistencia 220 Ω | 1 | R14 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
+| Resistencia 1 KΩ | 6 | R1, R3, R6, R7, R8, R11 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
+| Resistencia 2,2 KΩ | 1 | R13 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | No |
+| Resistencia 10 KΩ | 2 | R4, R5 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
+| Resistencia 100 KΩ | 3 | R2, R16, R17 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
+| Resistencia 2,2 MΩ | 1 | R15 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | No |
 | Condensador cerámico 1 µF | 1 | C9 | $100 | <https://www.mechatronicstore.cl/condensadores-ceramicos-distintos-valores/> | No |
 | Condensador cerámico 4.7 nF | 1 | C12 | $100 | <https://www.mechatronicstore.cl/condensadores-ceramicos-distintos-valores/> | No |
 | Condensador cerámico 10 nF | 1 | C13 | $100 | <https://www.mechatronicstore.cl/condensadores-ceramicos-distintos-valores/> | No |
@@ -80,30 +84,34 @@ en cuanto a la disponibilidad material en chile nos ubicamos principalmente en 2
 | Piezo | 1 | J8 | $990 | <https://www.mechatronicstore.cl/sensor-piezoelectrico-27mm-con-cable/> | Sí |
 | Cables dupont 40 uni. | 1 | - | $2.990 | <https://mcielectronics.cl/shop/product/cable-dupont-macho-macho-20cm-pack-40-unidades-2/> | Sí |
 | Batería 9V recargable | 1 | BT1 | $7.990 | <https://www.sodimac.cl/sodimac-cl/articulo/110251085/bateria-recargable-9v/110251089> | Sí |
-| Interruptor Switch | 1 | SW3 | $570 | <https://www.katode.cl/switches/1339-interruptor-switch-2-pines-on-off-corto.html?srsltid=AfmBOorJlIeUySzAORFwXSattHKE4BKH2LmhhXZS_8fZ4MW-G6kwnxqA> | No |
+| Interruptor Switch | 1 | SW3 | $570 | <https://www.katode.cl/switches/1339-interruptor-switch-2-pines-on-off-corto.html?> | No |
 
 ### BOM PCB 02, GRUPO 02: REGISTRO DE DESPLAZAMIENTO ESTÁTICO / NYAN CAT
 
+Este circuito también se categoriza como un secuenciador, es decir, que genera corrientes eléctricas en un patrón repetitivo y ordenado. Podemos tomar el mismo ejemplo del semáforo mencionado en el circuito anterior, donde este funciona encendiendo un LED detrás del otro sucesivamente hasta que se repite el ciclo.
+
+Adicionalmente funciona con el mismo corazón, es decir un reloj que alimenta a este secuenciador. Este nos va a definir la velocidad con la que avanza la ola. Este secuenciador entrega distintas salidas o compases en el orden ya mencionado. El como ocurre esto es muy llamativo, ya que el cerebro detrás de todo esto, realmente son 2, los que se comunican entre ellos para poder generar el efecto ola o cascada.
+
 | Componente | Cantidad | PCB | Valor unitario | Link | ¿Hay stock en LID? |
 | --- | --- | --- | --- | --- | --- |
-| Chip 4015 | 1 | U2 | $1.400 | <https://www.mactronica.com.co/cd4015?srsltid=AfmBOopMDQhFv0vy6tj-sATCKe9rcEpOGbsfz7VMFRrBPl9Yq3KS80wU> | No |
+| Chip 4015 | 1 | U2 | $1.400 | <https://www.mactronica.com.co/cd4015?> | No |
 | Regulador L7805CV | 1 | U4 | $350 | <https://www.victronics.cl/reguladores/reguladorvoltl7805cv5v-15ato220/> | No |
 | Transistor 2N2222 | 8 | Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10 | $220 | <https://www.cabezacuadrada.cl/product/pn2222a/> | Sí |
-| Transistor BC548 | 1 | Q1 | $200 | <https://www.mechatronicstore.cl/transistor-bc548/?srsltid=AfmBOorIdGTZFY0mLCpBPP8JWl9WGDELQa-iZIZ95pKPjncWCgmXklr3> | No |
+| Transistor BC548 | 1 | Q1 | $200 | <https://www.mechatronicstore.cl/transistor-bc548/?> | No |
 | LED 3mm | 9 | D1, D2, D3, D4, D5, D6, D7, D8, D12 | $100 | <https://www.mechatronicstore.cl/led-3mm-5mm/> | Sí |
-| Resistencia 220 Ω | 8| R4, R5, R6, R7, R8, R9, R10, R11 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
-| Resistencia 1 KΩ | 18 | R3, R12, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
-| Resistencia 10 KΩ | 1 | R2 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
-| Resistencia 100 KΩ | 1 | R13 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> | Sí |
+| Resistencia 220 Ω | 8| R4, R5, R6, R7, R8, R9, R10, R11 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
+| Resistencia 1 KΩ | 18 | R3, R12, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
+| Resistencia 10 KΩ | 1 | R2 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
+| Resistencia 100 KΩ | 1 | R13 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?> | Sí |
 | Diodo 1N4007 | 1 | D11 | $200 | <https://www.mechatronicstore.cl/diodo-rectificador-in4007-1n4007-4007/> | Sí |
 | Condensador cerámico 100 nF | 1 | C9 | $100 | <https://www.mechatronicstore.cl/condensadores-ceramicos-distintos-valores/> | Sí |
 | Condensador polarizado 10 µF | 1 | C8 | $100 | <https://www.mechatronicstore.cl/condensador-capacitorio-de-electrolitico-por-unidad-varios-valores/> | Sí |
 | Condensador polarizado 100 µF | 1 | C7 | $100 | <https://www.mechatronicstore.cl/condensador-capacitorio-de-electrolitico-por-unidad-varios-valores/> | Sí |
-| Interruptor Switch | 1 | SW4 | $570 | <https://www.katode.cl/switches/1339-interruptor-switch-2-pines-on-off-corto.html?srsltid=AfmBOorJlIeUySzAORFwXSattHKE4BKH2LmhhXZS_8fZ4MW-G6kwnxqA> | No |
+| Interruptor Switch | 1 | SW4 | $570 | <https://www.katode.cl/switches/1339-interruptor-switch-2-pines-on-off-corto.html?> | No |
 
 ### BOM PCB 03, GRUPO 03: COMANDO ESTELAR
 
-(hay q organizarlo aun)
+Este módulo recibe dos inputs, energía eléctrica a través de los conectores barrel jack y el voltaje de control que se ajusta girando el potenciómetro RV1, el cual determina la frecuencia de oscilación. Internamente ese voltaje entra al chip CD4046, el centro del circuito, que lo convierte en una oscilación cuya velocidad varía según ese voltaje. Esa señal pasa luego por dos inversores CD40106 que la limpian y estabilizan, hasta llegar al conector de audio jack (J4), que es el output del módulo, una señal oscilante limpia y lista para ser procesada por los demás módulos del sintetizador.
 
 | Componente | Cantidad | PCB | Valor unitario | Link | ¿Hay stock en LID? |
 | --- | --- | --- | --- | --- | --- |
@@ -133,43 +141,35 @@ Soldado 6 Horas
 
 ----------------
 
-Fuerte arraigo con lo modular, desde un principio creamos sistemas modulares hasta llegar a estas distintas placas cada una con diferentes chips y componentes pero oara llegar al mismo fin, un sintetizador modular capaz de interconectarse con nuevas partes de nuestras placas realizadas
-
-El diy vs eurorack, precios, diferencias
-Ante la barrera del eurorack salen las placas mas diy (como las de este taller) ya que los componentes son baratos de conseguir, aqui el contexto chileno brillante por la necesidad y creatividad,
-La existencia de iniciativas locales como talleres y la misma comunidad
-
-Jose vicente asuar
-
 nombre de sistema/instrumento construido por medio de módulos
 
 ??? AL FINAL PONER ESTO
 
 ----------------
 
-## placas soldadas
+# **placas soldadas**
 
 principio de funcionamiento de cada una, qué tipo de señal entrega a la salida, qué recibe
 lista de materiales con costos. Incluir tiempo de soldadura
 
 Nuestro sintetizador está formado de 4 modulos:
 
-> ## **maincra (Piezo/entrada)**
->
-> *un microfono de contacto que detecta vibraciónes, manda señales a un amplificador e inversor de señales. estos convierten la corriente la cual entra a un reloj interno que lo camba a pasos para que un sequenciador pueda funcionar.*
->
-> ## **nyan cat (Sequenciador)**
->
-> *un sequenciador de 8 pasos (y dos fases) que permite la conexión de multiples osciladores.*
->
-> ## **comando estelar (Oscilador)**
->
-> *esta placa utiliza 2 chip para general oscilaciónes que alteran a traves de potenciómetros que permiten cambiar tanto la frecuencia como la modulación del sonido.*
->
-> ## **parla (Amplificador/Salida)**
->
-> *es un amplificador de señal que permite escuchar las oscilaciónes del modulo anterior con mayor volumen.*
->
+## maincra (Piezo/entrada)
+
+*un microfono de contacto que detecta vibraciónes, manda señales a un amplificador e inversor de señales. estos convierten la corriente la cual entra a un reloj interno que lo camba a pasos para que un sequenciador pueda funcionar.*
+
+## nyan cat (Sequenciador)
+
+*un sequenciador de 8 pasos (y dos fases) que permite la conexión de multiples osciladores.*
+
+## comando estelar (Oscilador)
+
+*esta placa utiliza 2 chip para general oscilaciónes que alteran a traves de potenciómetros que permiten cambiar tanto la frecuencia como la modulación del sonido.*
+
+## parla (Amplificador/Salida)
+
+*es un amplificador de señal que permite escuchar las oscilaciónes del modulo anterior con mayor volumen.*
+
 
 -------------
 
@@ -253,29 +253,19 @@ inspiración y referentes (con cita)
 
 ??? 1 MAS
 
-#### Simbología
-
-QUE ES ESTO LOL
-
 ---
 
 #### Integración a la vida diaria
 
-TERMINAR DE ESCRIBIR
-
-Al hacer brainstorming de que podriamos hacer como partitura nos dimos cuenta que nuestras ideas eran actividades ????
+Al hacer brainstorming de que podriamos hacer como partitura nos dimos cuenta que nuestras ideas eran actividades que independientes de nuestra partitura se llevan a cabo. Nosotros nos introducimos a esta creando una composición nueva cada vez que se toca. 
 
 ---
 
 #### Ping Pong
 
-*(ver. literal examen 1) Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, “nyan cat” (secuenciador-2) y "comando estelar" (oscilador-1). Poner un piezo en cada lado superior de la mesa al centro, y pegarlo en la mesa con cinta adhesiva. Jugar una partida con paletas y pelota de Ping Pong que se piden donde los guardias. Con el impacto de la pelota en la mesa el secuenciador avanza, haciendo que el oscilador pueda funcionar. Jugar durante 5 minutos. Al perder, se cambian los jugadores. Al finalizar los 5 minutos se devuelven las paletas y pelota a los guardias.*
+*(ver. literal 2)* **Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, “nyan cat” (secuenciador-2) y "comando estelar" (oscilador-1). Pedir las paletas y pelotas donde los guardias. Pondremos un piezo en cada paleta de ping pong con masking tape. Situar el sintetizador bajo la mesa, asegurar que los cables no se enreden entre sí. Jugar una partida completa de Ping Pong de 21 puntos, con el impacto de la pelota en las paletas el secuenciador avanza, haciendo que el oscilador pueda funcionar. Al terminar la partida devolver las paletas y pelota a los guardias.**
 
-*(ver. literal 1) Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, RELO y “nyan cat” (secuenciador-2). Poner un piezo en cada lado superior de la mesa al centro, y pegarlo en la mesa con cinta adhesiva. Jugar una partida completa de Ping Pong de 21 puntos con las paletas y pelota que se piden con los guardias. Con el impacto de la pelota en la mesa el secuenciador avanza, haciendo que el oscilador pueda funcionar. Al terminar la partida devolver las paletas y pelota a los guardias.*
-
-**(ver. literal 2) Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, “nyan cat” (secuenciador-2) y "comando estelar" (oscilador-1). Pedir las paletas y pelotas donde los guardias. Pondremos un piezo en cada paleta de ping pong con masking tape. Situar el sintetizador bajo la mesa, asegurar que los cables no se enreden entre sí. Jugar una partida completa de Ping Pong de 21 puntos, con el impacto de la pelota en las paletas el secuenciador avanza, haciendo que el oscilador pueda funcionar. Al terminar la partida devolver las paletas y pelota a los guardias.**
-
-(ver. poética)
+*(ver. poética)*
 
 >**Ve a República 180 y ubica el piezo en la mesa de ping pong**
 
