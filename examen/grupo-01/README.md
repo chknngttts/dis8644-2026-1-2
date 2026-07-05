@@ -1,6 +1,6 @@
 # examen-grupo-01
 
-## integrantes
+## Integrantes 
 
 - Benjamín Alonso Álvarez Pavez / [benjaminalvarez21](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/03-benjaminalvarez21>)
 - Anays Valentina Cornejo Candia / [Anaysval](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/09-Anaysval>)
@@ -8,25 +8,25 @@
 - Lucas Ignacio Ortiz Aguirre / [ryukivol](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/21-ryukivol>)
 - Nicolás Elías Valdés Greve / [nicolasvaldesgreve](<https://github.com/disenoUDP/dis8644-2026-1-procesos-2/tree/main/31-nicolasvaldesgreve>)
 
-## criterios de diseño del sistema
+## Criterios de diseño del sistema 
 
-### de donde partimos?
+### ¿De dónde partimos? 
 
-No teniamos conocimientro previo antes de entrar al taller, fue nuestra primera vez trabajando con y soldando componentes electronicos a placas. Aparte de las clases que dieron los profesores buscamos inspiración en paginas web como foros y canales de youtube que mostraban como hacer partes de sintetizadores (ej; filtros, amplificadores, reguladores etc...).
+No teníamos conocimiento previo antes de entrar al taller, fue nuestra primera vez trabajando con y soldando componentes electrónicos a placas. Aparte de las clases que dieron los profesores buscamos inspiración en páginas web como foros y canales de YouTube que mostraban como hacer partes de sintetizadores (ej.; filtros, amplificadores, reguladores etc..). 
 
-Todo este proceso ha sido prueba y error, si no funciona, se cambia y se vuelve a intentar. Gran parte de la ayuda fue entre compañeros, nos apoyamos para arreglar problemas comunes, compartíamos datos de lugares de compra y paginas web para buscar circuitos interesantes.
+Todo este proceso ha sido prueba y error, si no funciona, se cambia y se vuelve a intentar. Gran parte de la ayuda fue entre compañeros, nos apoyamos para arreglar problemas comunes, compartíamos datos de lugares de compra y páginas web para buscar circuitos interesantes. 
 
 ------------
 
-## referentes
+## Referentes 
 
 ### WhiteSample
 
-artista chileno que usa sintetizadores analógicos
+Artista chileno que usa sintetizadores analógicos 
 
-ha trabajado con lollapalooza con estructuras interactivas (WhiteSample, 2014)
+Ha trabajado con Lollapalooza con estructuras interactivas (WhiteSample, 2014) 
 
-su música es experimental/electrónica
+Su música es experimental/electrónica 
 
 ![whitesample](./imagenes/whitesample-2.jpg) (WhiteSample & Cargo Collective, 2012)
 
@@ -34,27 +34,27 @@ su música es experimental/electrónica
 
 ### anthony1
 
-dj/productor chileno
+DJ/productor chileno 
 
-ha hecho tocatas ambientales donde utiliza sintetizadores analogicos y efectos digitales
+Ha hecho tocatas ambientales donde utiliza sintetizadores analógicos y efectos digitales 
 
-forma parte de un colectivo de varios artistas electronicos chilenos (Team Mekano)
+Forma parte de un colectivo de varios artistas electrónicos chilenos (Team Mekano) 
 
 ![anthony1](./imagenes/anthony1.png) (Anthony1, 2022)
 
 ----------------
 
-## disponibilidad material
+## Disponibilidad material 
 
-en cuanto a la disponibilidad material en chile nos ubicamos principalmente en 2 lugares/tienda; *San Diego* y *Victronics*. en *San Diego* se encuentran varias tiendas de electronicas que ofrecen distintos componentes, la gracia es los distintos lugares y sus especialidades.
+En cuanto a la disponibilidad material en chile nos ubicamos principalmente en 2 lugares/tienda; San Diego y Victronics. en San Diego se encuentran varias tiendas de electrónicas que ofrecen distintos componentes, la gracia es los distintos lugares y sus especialidades. 
 
-*Victronics* es una tienda online, por eso pueden ofrecer precios más bajos, además tienen accesorios como espaciadores y pernos para armar las carcasas.
+Victronics es una tienda online, por eso pueden ofrecer precios más bajos, además tienen accesorios como espaciadores y pernos para armar las carcasas. 
 
 ### BOM PCB MAINCRA
 
-Este módulo te permite interactuar con el sintetizador mediante vibraciones en el piezo, mediante golpes en el mismo. Estas vibraciones serás captadas por el piezo, lo cual lo tomará como señal para avanzar en el secuenciador.
+Este módulo te permite interactuar con el sintetizador mediante vibraciones en el piezo, mediante golpes en el mismo. Estas vibraciones serás captadas por el piezo, lo cual lo tomará como señal para avanzar en el secuenciador. 
 
-La idea detrás de esta propuesta nace de la posibilidad de sentir y ver las vibraciones. Aquello que parece caótico o insignificante puede contener señales que, al prestar suficiente atención, adquieren un significado propio. Siguiendo esa lógica, el piezo actúa como un medio para captar esas vibraciones y convertirlas en acciones dentro del sintetizador, permitiendo que elementos normalmente invisibles se vuelvan parte de la interacción.
+La idea detrás de esta propuesta nace de la posibilidad de sentir y ver las vibraciones. Aquello que parece caótico o insignificante puede contener señales que, al prestar suficiente atención, adquieren un significado propio. Siguiendo esa lógica, el piezo actúa como un medio para captar esas vibraciones y convertirlas en acciones dentro del sintetizador, permitiendo que elementos normalmente invisibles se vuelvan parte de la interacción. 
 
 | Componente | Cantidad | PCB | Valor unitario | Link | ¿Hay stock en LID? |
 | --- | --- | --- | --- | --- | --- |
@@ -140,7 +140,6 @@ Este módulo recibe dos inputs, energía eléctrica a través de los conectores 
 | Soldadura | 5 | 3 semanas | ???h |
 
 
-
  Según yo esto no va
 
 | Interruptor de palanca SPDT ON-ON | 1 | SW1 | $590 | Electrónica Real | |
@@ -149,126 +148,128 @@ Este módulo recibe dos inputs, energía eléctrica a través de los conectores 
 
 ----------------
 
-# **?????????** *(placas soldadas)*
+# **?????????** *(Placas soldadas)*
 
-principio de funcionamiento de cada una, qué tipo de señal entrega a la salida, qué recibe
-lista de materiales con costos. Incluir tiempo de soldadura
+Principio de funcionamiento de cada una, qué tipo de señal entrega a la salida, qué recibe lista de materiales con costos. Incluir tiempo de soldadura. 
 
-Nuestro sintetizador está formado de 4 modulos:
+Nuestro sintetizador está formado de 4 módulos: 
 
-## maincra (Piezo/entrada)
+## Maincra (Piezo/Entrada) 
 
-*un microfono de contacto que detecta vibraciónes, manda señales a un amplificador e inversor de señales. estos convierten la corriente la cual entra a un reloj interno que lo camba a pasos para que un sequenciador pueda funcionar.*
+*Un micrófono de contacto que detecta vibraciones, manda señales a un amplificador e inversor de señales. estos convierten la corriente la cual entra a un reloj interno que lo camba a pasos para que un secuenciador pueda funcionar.*
 
-## nyan cat (Sequenciador)
+## Nyan cat (Secuenciador) 
 
-*un sequenciador de 8 pasos (y dos fases) que permite la conexión de multiples osciladores.*
+*Un secuenciador de 8 pasos (y dos fases) que permite la conexión de múltiples osciladores.*
 
-## comando estelar (Oscilador)
+## Comando estelar (Oscilador) 
 
-*esta placa utiliza 2 chip para general oscilaciónes que alteran a traves de potenciómetros que permiten cambiar tanto la frecuencia como la modulación del sonido.*
+*Esta placa utiliza 2 chip para general oscilaciones que alteran a través de potenciómetros que permiten cambiar tanto la frecuencia como la modulación del sonido.*
 
-## parla (Amplificador/Salida)
+## Parla (Amplificador/Salida) 
 
-*es un amplificador de señal que permite escuchar las oscilaciónes del modulo anterior con mayor volumen.*
+*Es un amplificador de señal que permite escuchar las oscilaciones del módulo anterior con mayor volumen.*
 
 
 -------------
 
-## procesos
+## Procesos 
 
 ![test](./imagenes/procesos-largo.png)
 
 ![test gif-1](./imagenes/corte-laser-1.gif) ㅤㅤㅤㅤㅤㅤㅤ ![test gif-2](./imagenes/grito-test-medio.gif)
 
-#### para tener un flujo de trabajo más ordenado pusimos todos los conmponentes necesarios para armar una placa de lado.
+#### Para tener un flujo de trabajo más ordenado pusimos todos los componentes necesarios para armar una placa de lado. 
 
 > 1era dificultad
 >
-> tuvimos problemas con la organización en la compra de componentes, listas incompletas
+> Tuvimos problemas con la organización en la compra de componentes, listas incompletas 
 >
 
-#### soldamos los componentes por tamaño (de más pequeño a más grande) y cables para los que van montados en la carcasa.
+#### Soldamos los componentes por tamaño (de más pequeño a más grande) y cables para los que van montados en la carcasa. 
 
 > 2da dificultad
 >
-> también tuvimos problemas con el corte del acrílico para la carcasa
+> También tuvimos problemas con el corte del acrílico para la carcasa 
 >
-> 1er corte: falta de agujeros para componentes y tamaño equivocado
+> 1er corte: Falta de agujeros para componentes y tamaño equivocado
 >
-> 2do corte: formato no compatible de archivo
+> 2do corte: Formato no compatible de archivo 
 >
-> 3er/4to/5to corte: parametros erroneos y líneas de corte extra
+> 3er/4to/5to corte: Parámetros erróneos y líneas de corte extra 
 >
-> 6to corte: por falta de material usamos los restantes de cortes anteriores
+> 6to corte: Por falta de material usamos los restantes de cortes anteriores
 > 
 
-#### armamos las carcasas con los separadores
+#### Armamos las carcasas con los separadores 
 
 > 3era dificultad
 >
-> falta de separadores para las carcasas por modificaciones en tamaño
+> Falta de separadores para las carcasas por modificaciones en tamaño
 >
 
-#### al tener todo soldado en la placa se empezó a armar la cubierta de acrílico con los separadores (gracias al grupo 0X por darnos sus separadores restantes), pusimos los potenciómetros, entradas/salidas de audio y switch conectados con los cables
+#### Al tener todo soldado en la placa se empezó a armar la cubierta de acrílico con los separadores (gracias al grupo 0X por darnos sus separadores restantes), pusimos los potenciómetros, entradas/salidas de audio y switch conectados con los cables 
 
 > 4ta dificultad
 >
-> funcionamiento correcto de las PCB, soldamos varias veces las placas, cambiamos los componentes y remplazamos los cables pero no funcionaban.
+> Funcionamiento correcto de las PCB, soldamos varias veces las placas, cambiamos los componentes y remplazamos los cables, pero no funcionaban. 
 >
 
 ----------------
 
-## carcasa
+## Carcasa 
 
-decisiones materiales y formales de la carcasa
-inspiración y referentes (con cita)
+> *Escogimos trabajar con acrílico ya que éramos familiares con el material. es fácil de trabajar por su compatibilidad con el corte laser que nos permitía cortar varias carcasas, grabar y lograr un buen oficio. el material es firme, perfecto para lo que teníamos en mente, además es económico.*
+>
+> *Una cualidad del acrílico que utilizamos es la transparencia. buscamos celebrar el diseño de las PCB a través de la transparencia de este, rompiendo la caja negra e invitando a la apreciación integral de cada placa y sus distintos componentes.*
 
-> *escogimos trabajar con acrilico ya que eramos familiares con el material. es fácil de trabajar por su compatibilidad con el corte laser que nos permitía cortar varias carcasas, grabar y lograr un buen oficio. el material es firme, perfecto para lo que teniamos en mente, además es economico.*
->
-> *una cualidad del acrílico que utilizamos es la transparencia. buscamos celebrar el diseño de las PCB a través de la transparencia de este, rompiendo la caja negra e invitando a la apreciación integral de cada placa y sus distintos componentes.*
+### Referentes carcasa 
 
-### referentes carcasa
-
-> para la carcasa usamos estos 3 ejemplos:
+> Para la carcasa usamos estos 3 ejemplos:
 >
-> cmf phone - Nothing (Nothing, 2024)
+> **CMF Phone - Nothing (Nothing, 2024)**
 >
-> microKorg crystal - Korg (KORG, 2022)
+> Este dispositivo también utiliza módulos al igual que nuestro sistema. 
 >
-> gameboy transparente - Nintendo (Amo, 2011)
+> **microKorg Crystal - Korg (KORG, 2022)**
+>
+> Siendo un sintetizador nos llamó la atención que también use carcasa transparente. 
+>
+> **Gameboy transparente - Nintendo (Amo, 2011)**
+>
+> Al igual que el microKorg Crystal, utiliza una carcasa transparente, permitiendo observar el interior. 
+>
+> *Utilizamos estos referentes como inspiración para llegar al resultado de las placas, combinando las características que se reflejan en nuestros conceptos.*
 > 
 
-## composición
+## Composición 
 
 ### Referentes
 
 - **Yoko Ono:**
 
-> ### **"pieza de escondite"**
+> ### **"PIEZA DE ESCONDITE"**
 >
-> *"esconderse hasta que todos se vayan a sus casas."*
+> *"Esconderse hasta que todos se vayan a sus casas."*
 >
-> *"esconderse hasta que todos se olviden de uno."*
+> *"Esconderse hasta que todos se olviden de uno."*
 >
-> *"esconderse hasta que todos todos se mueran"*
+> *"Esconderse hasta que todos se mueran"*
 > *(Ono, 1964, 25)*
-
-??? 1 MAS
 
 ---
 
 #### Integración a la vida diaria
 
-Al hacer brainstorming de que podriamos hacer como partitura nos dimos cuenta que nuestras ideas eran actividades que independientes de nuestra partitura se llevan a cabo. Nosotros nos introducimos a esta creando una composición nueva cada vez que se toca. 
+Al hacer brainstorming de que podríamos hacer como partitura nos dimos cuenta de que nuestras ideas eran actividades que independientes de nuestra partitura se llevan a cabo. Nosotros nos introducimos a está creando una composición nueva cada vez que se toca. 
 
-Descubrimos que nuestra partitura calzaba con el principio de el *Sitio especifico*, un tipo de obra especifica planeada para un lugar concreto. En nuestro caso siendo la mesa de Ping Pong en la FAAD. (Kolodynski, n.d.)
+Descubrimos que nuestra partitura calzaba con el principio del Sitio especifico, un tipo de obra especifica planeada para un lugar concreto. En nuestro caso siendo la mesa de Ping Pong en la FAAD. (Kolodynski, n.d.) 
 
 ---
 
 #### Ping Pong
 
-*(ver. literal 2)* **Como grupo-01 vamos a ir a República 180, Santiago de Chile con “maincra” (piezo-01), el parlante, “nyan cat” (secuenciador-2) y "comando estelar" (oscilador-1). Pedir las paletas y pelotas donde los guardias. Pondremos un piezo en cada paleta de ping pong con masking tape. Situar el sintetizador bajo la mesa, asegurar que los cables no se enreden entre sí. Jugar una partida completa de Ping Pong de 21 puntos, con el impacto de la pelota en las paletas el secuenciador avanza, haciendo que el oscilador pueda funcionar. Al terminar la partida devolver las paletas y pelota a los guardias.**
+*(ver. literal 2)* **Como grupo-01 vamos a ir a República 180, Santiago de Chile con “Maincra” (piezo-01), el parlante, “Nyan cat” (secuenciador-2) y "comando estelar" (oscilador-1). Pedir las paletas y pelotas donde los guardias. Pondremos un piezo en cada paleta de Ping Pong con masking tape. Situar el sintetizador bajo la mesa, asegurar que los cables no se enreden entre sí. Jugar una partida completa de Ping Pong de 21 puntos, con el impacto de la pelota en las paletas el secuenciador avanza, haciendo que el oscilador pueda funcionar. Al terminar la partida devolver las paletas y pelota a los guardias.**
 
 *(ver. poética)*
 
@@ -280,7 +281,7 @@ Descubrimos que nuestra partitura calzaba con el principio de el *Sitio especifi
 
 ------------------
 
-## bibliografía
+## Bibliografía
 
 PEGAR DEL DOC YA ESTAN CASI TODAS
 
