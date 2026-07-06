@@ -316,9 +316,9 @@ WhiteSample, & Cargo Collective. (2012, 01 04). Live at Mutek_CL. <https://vimeo
 
 placas usadas:
 
-- placa 01: piezo, diseñada por grupo 01
-- placa 02: secuenciador, diseñada por grupo 02
-- placa 03: oscilador, diseñada por grupo 03
+- placa 01: piezo 01, diseñada por grupo 01
+- placa 02: secuenciador 02, diseñada por grupo 02
+- placa 03: oscilador 01, diseñada por grupo 03
 
 explicación de flujo de señal de audio:
 
@@ -330,7 +330,7 @@ ordenado a grandes rasgos gesto humano a fuentes de tiempo, a secuenciador, a os
 
 estado de construcción:
 - placa 01: no funciona, la entrada original del piezo no es funcional, si uno se conecta al otro audiojack se prenden LEDs. los potenciometros controlan la intensidad de la luz y bloquean al piezo.
-- placa 02: no funciona, las LEDs no se prenden junto a los steps (el grupo del secuenciador nos contó que tambíen encontraron este error en la protoboard y que no affecta realmente el funcionamiento de los steps). 
+- placa 02: notamos que ambos pines de RST están unidos GND y consecuentemente a todas las salidas/entradas de la placa. sospechamos que esto es lo que hace que la placa no funcione correctamente. como solución tenemos usar una easy PCB. queremos soldar un circuito común usando el 4017.
 - placa 03: funcionan algunos, los de los costados suenan correctamente, el del medio tiene más problemas. nos dimos cuenta que pusimos mal una cama/zapato y que usamos un chip distinto al resto. ahora estamos soldando los componentes nuevamente con el chip correcto.
 
 ayudas eléctricas que necesitamos domingo:
@@ -345,4 +345,18 @@ ayuda audio que necesitamos domingo:
 
 materiales faltantes:
 
-- chip 4046 40106 para grito (para tener a mano por si algo se quemara)
+- chips 4046/40106 para Comando estelar (para tener a mano por si algo se quemara)
+
+- El chip 386 permite amplificar y segun lo que entendo estoy buscando estrategias de como mutear y dicen que la patiata 7 sirve para eso si le ponenun switch y patita 7 a tierra = se mute, no es p¿erfecto pq se escucha unpopo perp se mutea, malan con mati 386 entra osciladores y piezo que contrpole esa patita de mutear  
+
+ -------
+
+Como mutear 386? 
+
+ 
+
+https://hackaday.com/2016/12/07/you-can-have-my-lm386s-when-you-pry-them-from-my-cold-dead-hands/ 
+
+ 
+
+MISAAAAAAA AYUDA tengo una idea! Eureka! Pin 7 en GND = mute allegedly. Si hacemos que el piezo se conecte a VCC y GND. funciona “mal” y la señal choca con GND sino me equivoco. Si conectamos en piezo así y logramos invertir la señal, podria ser: golpe = sonido/vcc - no golpe = mute/GND 
