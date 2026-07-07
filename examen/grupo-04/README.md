@@ -199,7 +199,7 @@ Es turno de devolver el impulso de fuerza y vida al chirihue mecanizado, quien s
 
 1. Primero vamos a intentar ver la melodía de las cuerdas de la viola, y vamos a ser testigos de cómo cada señal emitida por esta, dará la vida al chirihue para que entone su canto.
 2. El chirihue está cantando, ¡ESTÁ VIVO!, pero te necesita a ti, quien le escucha, pues él en su canto reconoce que hay más melodías por entonar…, pero no puede hacerlo sin ti:
-Así que ahora acércate a la artista de las cuerdas, y vuélvanse uno; mueve las perillas de los potenciómetros, y escuchemos el cantó de aquel pequeño mecanizado volver a la vida.
+Así que ahora acércate a la artista de las cuerdas, y vuélvanse uno; mueve las perillas de los potenciómetros, y escuchemos el canto de aquel pequeño mecanizado volver a la vida.
 
 3. Gracias a ti, y tu buena bondad, la voz de los más pequeños se hace grande. Escucha y sorpréndete.
 
@@ -216,7 +216,7 @@ Así que ahora acércate a la artista de las cuerdas, y vuélvanse uno; mueve la
 
 ## Conclusión
 
-Este proceso ha estado lleno de altos y bajos, partimos con una idea muy clara respecto a lo que queríamos hacer, pero nos fuimos topando con varios obstáculos en el camino, ya que nuestra placa principal del Chirihue Mecanizado tuvo bastantes problemas para que funcionara como esperábamos. A pesar de eso y el arduo trabajo en equipo, pudimos rescatar bastantes aprendizajes de esta experiencia. A partir de los conocimientos adquiridos en la clase, pudimos tener una segunda opción en la que utilizamos protoboards y para moder mostrar nuestra propuesta, teniendo una segunda opción, además de recordarnos que es la primera que vez que se realizan este tipo de proyectos en en la universidad. Nos sentimos orgullosos del progreso que tuvimos. 
+Este proceso ha estado lleno de altos y bajos, partimos con una idea muy clara respecto a lo que queríamos hacer, pero nos fuimos topando con varios obstáculos en el camino, ya que nuestra placa principal del Chirihue Mecanizado tuvo bastantes problemas para que funcionara como esperábamos. A pesar de eso y el arduo trabajo en equipo, pudimos rescatar bastantes aprendizajes de esta experiencia. A partir de los conocimientos adquiridos en la clase, pudimos tener una segunda opción en la que utilizamos protoboards para poder mostrar nuestra propuesta, además de recordarnos que es la primera vez que se realizan este tipo de proyectos en la universidad. Nos sentimos orgullosos del progreso que tuvimos. 
 
 ![procesos](./imagenes/procesos.png)
 ![grupo](./imagenes/fotogrupo.png)
